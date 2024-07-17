@@ -1,0 +1,71 @@
+.container_bg {
+    background-color: #111315;
+    padding-bottom:40px
+}
+.bg_image {
+    background: url('/bg-cafe.jpg');
+    min-height:450px;
+}
+
+.content {
+    margin:-150px 72px 0 72px;
+    background-color: #1B1D1F;
+    padding:72px;
+    text-align:center;
+}
+
+h1 {
+    color: #FEF7EE;
+    font-size: 2rem
+}
+
+.description {
+    color: #6F757C;
+    margin-top:16px;
+}
+
+.navegation_links {
+    margin-top:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:32px;
+}
+
+.navegation_links a {
+    color: #FEF7EE;
+}
+.navegation_links a.active {
+    background-color: #6F757C;
+    padding:8px;
+    border-radius:10px
+}
+
+.show_our_coffee {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content:center;
+    margin-top:32px;
+}
+
+
+
+/* tablet */
+@media screen and (max-width:835px) {
+    .show_our_coffee {
+        grid-template-columns: 300px 300px;
+    }
+}
+/* celular */
+
+@media screen and (max-width:431px) {
+    .show_our_coffee {
+        grid-template-columns: 300px;
+    }
+    .show_our_coffee img.image_url {
+        width:200px
+    }
+    .isPopular {
+        left:60px
+    }
+}
