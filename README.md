@@ -1,8 +1,20 @@
-# React + Vite
+# Simple Coffee
+Este projeto é uma página web simples dedicada ao café, criada por mim e inspirada no layout do site *devChallenges.io*.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Uso
+Clone o projeto utilizando o comando git clone e, dentro do diretório do projeto, execute npm install para instalar as dependências necessárias
+
+
+## Detalhes
+* Versão desktop
+
+<img src="./page-desktop.png" alt="pagina real" />
+
+---
+
+* Versão mobile
+
+<img src="./page-mobile.png" alt="pagina real" />
